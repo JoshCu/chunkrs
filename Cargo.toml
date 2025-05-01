@@ -1,0 +1,25 @@
+[package]
+name = "dlpy"
+version = "0.1.0"
+edition = "2021"
+description = "A high-performance tool that downloads files in parallel chunks to maximize bandwidth utilization"
+license = "MIT"
+authors = ["AI Generated"]
+repository = "https://github.com/JoshCu/dlpy"
+readme = "README.md"
+keywords = ["download", "parallel", "http", "utility", "cli"]
+categories = ["python", "network-programming"]
+
+[lib]
+name = "dlpy"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.24.0"
+reqwest = { version = "0.11", features = ["stream", "json"] }
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3"
+clap = { version = "4.0", features = ["derive"] }
+indicatif = "0.17"
+anyhow = "1.0"
+pretty-bytes = "0.2.2"
