@@ -1,25 +1,25 @@
-# dlpy
+# dlrs
 
 A high-performance parallel file downloader with Python bindings, powered by Rust.
 
 ## Installation
 
 ```bash
-pip install dlpy
+pip install dlrs
 ```
 
 CLI also available with:
 ```bash
-uvx dlpy --help
+uvx dlrs --help
 
-uvx tool install dlpy
-dlpy --help
+uvx tool install dlrs
+dlrs --help
 ```
 
 ## Usage
 
 ```python
-from dlpy import download
+from dlrs import download
 
 # Basic usage
 download(url="https://example.com/large-file.zip", output_file="large-file.zip")

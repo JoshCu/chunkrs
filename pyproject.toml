@@ -3,7 +3,7 @@ requires = ["maturin>=1.8,<2.0"]
 build-backend = "maturin"
 
 [project]
-name = "dlpy"
+name = "dlrs"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Rust",
@@ -12,6 +12,6 @@ classifiers = [
 ]
 dynamic = ["version"]
 [project.scripts]
-dlpy = "dlpy:cli_main"
+dlrs = "dlrs:cli_main"
 [tool.maturin]
 features = ["pyo3/extension-module"]

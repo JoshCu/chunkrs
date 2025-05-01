@@ -1,17 +1,17 @@
 [package]
-name = "dlpy"
+name = "dlrs"
 version = "0.1.0"
 edition = "2021"
 description = "A high-performance tool that downloads files in parallel chunks to maximize bandwidth utilization"
 license = "MIT"
 authors = ["AI Generated"]
-repository = "https://github.com/JoshCu/dlpy"
+repository = "https://github.com/JoshCu/dlrs"
 readme = "README.md"
 keywords = ["download", "parallel", "http", "utility", "cli"]
 categories = ["python", "network-programming"]
 
 [lib]
-name = "dlpy"
+name = "dlrs"
 crate-type = ["cdylib"]
 
 [dependencies]

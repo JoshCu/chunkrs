@@ -5,7 +5,7 @@ use std::path::PathBuf;
 use crate::downloader::download;
 
 #[derive(Parser)]
-#[command(name = "dlpy")]
+#[command(name = "dlrs")]
 #[command(about = "Fast parallel downloading utility", long_about = None)]
 pub struct Args {
     /// URL to download from
