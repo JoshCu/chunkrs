@@ -23,3 +23,6 @@ clap = { version = "4.0", features = ["derive"] }
 indicatif = "0.17"
 anyhow = "1.0"
 pretty-bytes = "0.2.2"
+tar = "0.4.44"
+num_cpus = "1.16.0"
+flate2 = "1.1.1"
