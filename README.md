@@ -1,25 +1,25 @@
-# dlrs
+# chunkrs
 
 A high-performance parallel file downloader with Python bindings, powered by Rust.
 
 ## Installation
 
 ```bash
-pip install dlrs
+pip install chunkrs
 ```
 
 CLI also available with:
 ```bash
-uvx dlrs --help
+uvx chunkrs --help
 
-uvx tool install dlrs
-dlrs --help
+uvx tool install chunkrs
+chunkrs --help
 ```
 
 ## Usage
 
 ```python
-from dlrs import download
+from chunkrs import download
 
 # Basic usage
 download(url="https://example.com/large-file.zip", output_file="large-file.zip")
