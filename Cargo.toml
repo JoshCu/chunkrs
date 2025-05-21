@@ -11,7 +11,7 @@ keywords = ["download", "parallel", "http", "utility", "cli"]
 categories = ["python", "network-programming"]
 
 [lib]
-name = "dlrs"
+name = "chunkrs"
 crate-type = ["cdylib"]
 
 [dependencies]
